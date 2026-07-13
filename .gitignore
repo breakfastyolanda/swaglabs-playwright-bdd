@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Test reports
+reports/
+playwright-report/
+test-results/
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# TypeScript build output
+dist/
