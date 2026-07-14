@@ -3,7 +3,6 @@
 **Author:** Yolanda Breakfast  
 
 ## Overview
-## Overview
 
 This project is an automated end-to-end testing framework for the Swag Labs web application. It was developed using Playwright, Cucumber BDD, and TypeScript.
 
