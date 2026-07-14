@@ -7,8 +7,11 @@ setDefaultTimeout(30 * 1000);
 
 Before(async function (this: CustomWorld) {
     this.browser = await chromium.launch({
-        headless: true
+      //  headless: true
+     headless: false,
+       slowMo: 500
     });
+
 
     this.context = await this.browser.newContext();
     this.page = await this.context.newPage();
